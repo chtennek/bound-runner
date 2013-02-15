@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+a:link, a:visited {
+    color: #000;
+}
+a:active, a:hover {
+    color: #666;
+}
+.header {
+    position: relative;
+    margin: 10px auto;
+    width: 960px;
+}
+.header span {
+    font-weight: bold;
+}
+.footer {
+    font-size: x-small;
+}
+iframe {
+    position: absolute;
+    left: 0;
+}
+div.content {
+    margin: auto;
+    width: 960px;
+}
+div.missing {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 193px;
+}
+div.missing a {
+    height: 63px;
+    position: relative;
+    top: -31px;
+}
+div.missing img {
+    border-width: 0px;
+}
+div#unityPlayer {
+    cursor: default;
+    height: 600px;
+    width: 960px;
+}
